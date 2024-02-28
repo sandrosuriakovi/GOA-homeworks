@@ -1,117 +1,144 @@
-QWEQWEQWEQWEQWEWQEQWEWQEWQEWQEQWEWQEQWEWQEQWEWQEQWEQEQEWQEQEQWEWQEQWEQEQWEWQEEQWEWQWQWEWEQWWQEQWQWQWQWWQQWQWQWQWEQWQQEQ
-
-EQW
-WE
-W
-EllipsisWE
-WEQ
-EncodingWarningWQ
-
-quitWEQ
-Q
-
-EWQ
-WQE
-E
-WarningQ
-EncodingWarningW
-EWQ
-EWQ
-WQ
-
-WEQ
-
-EncodingWarningWE
-E
-WarningWE
-E
-QWE
-QW
-QWE
-EncodingWarning
-EQW
-QE
-QWE
-W
-EQ
-
-EncodingWarningE
-
-EncodingWarningEWQ
-
-EWQ
-EWQ
-QWE
-WEQ
-QEWE
-QW
-QEW
-EncodingWarningQQE
-
-EQW
-EWQ
-QWE
-
-WEQ
-WEQ
-WarningWE
-
-WEQ
-
-WQ
-Ellipsis
-WarningE
-QWE
-
-QWE
-WQ
-EllipsisW
-Q
-
-Ellipsis
-WQQ
-EllipsisQW
-EWQ
+print{print
+      
+      {{{{{]}}]{{}[}{}}{}{}][]]
+      ]
 
 
 
-EQW
+[[
+      [
+            []]
+]]]]][]
+[]
+][]
+[
+      [
+      ][print[]
+        []][]][][][][print[][][
+        ][print[]][print][][]
+        ][print][
+        ]
+[]
+][print]
+[]
+][[[[[]][]]
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   ]]]]]][][][print][print[][print[print][print[][print[]
+                                                  [][print][print]pow]or[]or[]p][p]
+                                                  ][][][[]][][pow[]
+                                                  []
+                                                  []
+                                                  [pow[]
+                                                  [][pow[][pow[][pow][pow
+                                                  
+                           vfff
 
+                                                  
+                                                  ]-
+                                                  ]
 
-EQ
+                                                  -]
 
+                                                  -]
+                                                  --=
+                                                  ]
+                                                  -
+   ]
+-
+=
+]
+-
+]
+=-]
+-
+]
+=-
+]
+=-
+]-
 
-EWQ
+]if
+if
+]
+]
 
-EQW
-EQW
-
-EWQ
-EQW
-QW
-EllipsisWE
-QWE
-WindowsErrorQE
-WQEW
-EllipsisW
-EllipsisWQE
-WQ
-GFN
-
-hasattrJYTJEH
-
-GeneratorExitGD
-GeneratorExitDFGDFG
-DF
-GFG
-FDGF
-DG
-FileNotFoundErrorDFGDFG
-
-DeprecationWarning
-DFG
-DeprecationWarningGFD
-def
-DF
-GeneratorExitFG
-D
+-
+=-
+-
+=]
+=]
+-]
+-=
+]-]
+-
+]-
+]
+if]i,]
+                                                  
+                                                  ,]i
+                                                  ,]or,],
+                                                  ]UnboundLocalError]
+                                                  ]
+                                                  ]h
+                                                  ]hasattr]g
+                                                  h
+                                                  g]hasattrg]h
+                                                  g]h
+                                                  g]h
+                                                  g]hasattrg]h
+                                                  [h[global[hasattrh[[gfdpiup0000000000000000qynv8y 4
+                                                  3
+                                                  4
+                                                  345
+                                                  4
+                                                  5345
+                                                  4543
+                                                  q
+                                                  b 4
+                                                  b qgvq4gvg34g
+                                                  v
+                                                  f
+                                                  5g
+                                                  gf
+                                                  453
+                                                  g3
+                                                  4
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  hda gy sdasrtyhjnnAZxvbnm bvzzxv bxcvgbhnjkmmnbhgvcxdzs bnm,nbvazsxcvbnmnbvxcvbnbycvgb]]]]]
+                                                  
+                                                  
+                                                  
+                                                  ][
+                                                  ][pow[]
+                                                  ][][][pow[]]][pow]]
+                                                  ]]]]]]]]]]]]
+        ]
+        ]]]
+      ]
+]
+      ]
+]}}}}}
