@@ -9,11 +9,13 @@ for i in range(num1,num2):
 for i in range(50,101): #3)
     print(i)
 
-for i in range(100,51): #4)
+for i in range(100,49, -1): #4)
     print(i)
-
-for i in range(0,51): #5)
-    print(i+i)
+                       #5
+sum=0
+for i in range(0,51): 
+    print(i)
+    print(sum)
 
 num=int(input("please enter a whole number:"))
 
