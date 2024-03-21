@@ -1,6 +1,6 @@
-money = int(input("enter your budget:"))
-house =150000
-if money < house:
+budget = int(input("enter your budget:"))
+cost = int(input("please enter the cost:"))
+if budget <= cost:
     print("you dont have enough money")
-elif money >= house:
+else:
     print("you can buy it")
