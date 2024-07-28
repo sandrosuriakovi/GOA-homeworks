@@ -1,0 +1,9 @@
+div{
+border:1px;
+width: 200px;
+height: 200px;
+animation: alternate;
+animation-duration: 5s;
+animation-name: clean animation;
+}
+

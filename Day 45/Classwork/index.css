@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.parent {
+    width: 1200px;
+    height: 1200px;
+    border: 5px solid red;
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+
+}
+
+.child {
+    background-color: green;
+    color: white;
+    border: 3px solid blue;
+    font-size: 60px;
+
+}
+
+
+
+.child1{
+        
+
+
+
+
+
+
+
+
+}
+
+.child2{
+
+
+
+
+
+
+
+
+
+
+}
+.child3{
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+.child4{
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+.child5{
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.child6{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,57 @@
+<html>
+
+    <head>
+        <title>Contact Us</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .parent {
+                width: 800px;
+                height: 800px;
+                border: 5px solid red;
+            }
+
+            .child-1 {
+                width: 300px;
+                height: 300px;
+                background-color: red;
+                z-index: 3;
+                position: absolute;
+            }
+
+            .child-2 {
+                width: 600px;
+                height: 600px;
+                background-color: blue;
+                z-index: 2;
+                position: absolute;
+            }
+
+            .child-3 {
+                width: 791px;
+                height: 791px;
+                background-color: green;
+                z-index: 1;
+                position: absolute;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="parent">
+            <div class="child child-1">1</div>
+            <div class="child child-2">2</div>
+            <div class="child child-3">3</div>
+        </div>
+    </body>
+
+</html>

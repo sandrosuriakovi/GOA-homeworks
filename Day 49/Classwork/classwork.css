@@ -1,0 +1,40 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    .parent{width: 500;
+            height: 500;
+            border: 5px solid greenyellow;
+            translate: 20px;
+            transform: scale(1.5);
+            
+
+}
+
+
+    .child{background-color: greenyellow;
+        transition:200px 3s;
+
+    }
+
+    div{display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+    
+    
+    
+    
+    
+    
+    }

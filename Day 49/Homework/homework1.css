@@ -1,0 +1,102 @@
+.square{
+background-color: greenyellow;
+border: 5px;
+width: 200px;
+height: 200px;
+display: flex;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+transform: rotate(45deg);
+}
+
+
+.scaled_button{
+background-color: aquamarine;
+border: 5px;
+width:200px;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 20px;
+transform: scale(1.2);
+}
+
+
+
+
+
+.circle{
+background-color: blueviolet;
+border: 5px;
+width: 200px;
+height: 200px;
+border-radius: 100%;
+margin-left: auto;
+margin-right: 400px;
+transform: translateX(100px);
+}
+
+
+.rotation_scaling{
+background-color: yellow;
+border: 5px;
+width: 200px;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+transform: rotate(45deg) scale(2);
+margin-top: 100px;
+}
+
+.color_change{
+background-color: rgb(255, 0, 247);
+border:5px;
+width: 200px;
+height: 200px;
+transition:0.5s ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.color_change:hover{
+background-color:rgb(47, 248, 255);
+}
+
+
+
+
+
+.smooth_animation{
+background-color: orange;
+border: 5px;
+width: 50px;
+height: 50px;
+transition: 1s;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.smooth_animation:hover{
+width: 150px;
+height: 150px;
+}
+.heading{
+background-color: rgb(43, 202, 226);
+border: 5px;
+width:200px;
+height:200px;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 1s;
+}
+.heading:hover{
+background-color: rgb(255, 0, 247);
+transform: rotate(10deg);
+
+}

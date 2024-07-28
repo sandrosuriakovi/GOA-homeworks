@@ -1,0 +1,24 @@
+header{
+background-color: rgb(71, 71, 248);
+border: 1px solid;
+width: auto;
+height: 100px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+    div {
+        width: 100%;
+    }
+}

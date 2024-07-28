@@ -1,0 +1,397 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="homework2.css">
+        <link rel="stylesheet" href="favicon_io.zip">
+        <link rel="stylesheet" href="homework2.js">
+        <title>lil smile</title>
+        <meta name="description" content="just for homework">
+        <style>
+            canvas {
+                border: 1px solid black;
+            }
+        </style>
+
+        <style>
+            body {
+        font-family: Arial, sans-serif;
+            margin: 50px;
+            }
+            .container {
+            width: 50%;
+            margin: 0 auto;
+            }
+            .progress-bar {
+            width: 100%;
+            height: 30px;
+            }
+        </style>
+         <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 50px;
+            }
+            .container {
+                width: 50%;
+                margin: 0 auto;
+            }
+            details {
+                margin-top: 20px;
+            }
+            summary {
+                font-size: 18px;
+                cursor: pointer;
+            }
+            .content {
+                margin-top: 10px;
+                padding-left: 20px;
+            }
+        </style>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 300px;
+            margin: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+        .card:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        .card img {
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-content h2 {
+            margin: 0 0 10px;
+            font-size: 20px;
+        }
+        .card-content p {
+            font-size: 14px;
+            color: #666;
+            margin: 0 0 15px;
+        }
+        .card-content a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        .card-content a:hover {
+            text-decoration: underline;
+        }
+    </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Carousel Example</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 50px;
+                display: flex;
+                justify-content: center;
+            }
+            .carousel {
+                position: relative;
+                width: 80%;
+                max-width: 600px;
+                overflow: hidden;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+            .carousel-images {
+                display: flex;
+                transition: transform 0.5s ease-in-out;
+            }
+            .carousel-images img {
+                width: 100%;
+            }
+            .carousel-buttons {
+                position: absolute;
+                top: 50%;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                transform: translateY(-50%);
+            }
+            .carousel-button {
+                background: rgba(0, 0, 0, 0.5);
+                border: none;
+                color: white;
+                padding: 10px;
+                cursor: pointer;
+            }
+            .carousel-button:focus {
+                outline: none;
+            }
+        </style>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            .header {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 10px 0;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                z-index: 1000;
+            }
+            .content {
+                padding: 60px 20px 20px; /* Add top padding to avoid overlap with fixed header */
+            }
+            .section {
+                margin: 20px 0;
+                padding: 20px;
+                background-color: #f4f4f4;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+        </style>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+            }
+            .sidebar {
+                position: sticky;
+                top: 0;
+                width: 200px;
+                height: 100vh;
+                padding: 20px;
+                background-color: #333;
+                color: white;
+                box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            }
+            .content {
+                margin-left: 220px; /* Account for the sidebar width + margin */
+                padding: 20px;
+            }
+            .section {
+                margin: 20px 0;
+                padding: 20px;
+                background-color: #f4f4f4;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+        </style>
+</head>
+    </head>
+    <body>
+        <section>
+        <audio controls src="5 sec Intro Music.mp3"></audio> 
+        <video controls src="5 sec Intro Music.mp4"></video>
+        </section>
+        <br>
+        <form>
+            <input type="email" placeholder="E-mail" required>
+            <input type="date" placeholder="birthday" required>
+            <input type="number" placeholder="phone number" required>
+        </form>
+        <canvas id="myCanvas" width="500" height="500"></canvas>
+        <script src="script.js"></script>
+
+
+        <svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+            <!-- Draw a rectangle -->
+            <rect x="50" y="50" width="150" height="100" fill="blue" />
+    
+            <!-- Draw a circle -->
+            <circle cx="300" cy="100" r="50" fill="red" />
+    
+            <!-- Draw a line -->
+            <line x1="50" y1="300" x2="400" y2="300" stroke="green" stroke-width="5" />
+    
+            <!-- Draw a triangle (polygon) -->
+            <polygon points="200,400 250,350 300,400" fill="yellow" />
+        </svg>
+
+        <picture>
+            <!-- Image for devices with a minimum width of 800px -->
+            <source srcset="Download" media="(min-width: 800px)">
+            
+            <!-- Image for devices with a minimum width of 600px -->
+            <source srcset="Download" media="(min-width: 600px)">
+            
+            <!-- Fallback image for devices with smaller screens -->
+            <img src="Download.png" alt="Responsive Image">
+        </picture>
+
+        <iframe src="homework1.html" frameborder="500">homework1</iframe>
+        <form>
+            <input type="file" placeholder="file" required>
+            <button>submit</button>
+        </form>
+
+        <div class="container">
+            <h1>Progress Bar Example</h1>
+            <progress class="progress-bar" value="50" max="100"></progress>
+            <p>Progress: 50%</p>
+        </div>
+        <form>
+            <input type="text" placeholder="contact">
+        </form>
+        <div class="container">
+            <h1>Expandable Section Example</h1>
+            <details>
+                <summary>Click to expand/collapse</summary>
+                <div class="content">
+                    <p>This is the content inside the expandable section. You can add any HTML content here, such as text, images, or even other HTML elements.</p>
+                    <progress class="progress-bar" id="progressBar" value="0" max="100"></progress>
+                    <p id="progressText">Progress: 0%</p>
+                    <button onclick="increaseProgress()">Increase Progress</button>
+                </div>
+            </details>
+        </div>
+    
+        <script>
+            function increaseProgress() {
+                var progressBar = document.getElementById('progressBar');
+                var progressText = document.getElementById('progressText');
+                if (progressBar.value < progressBar.max) {
+                    progressBar.value += 10;
+                    progressText.innerText = 'Progress: ' + progressBar.value + '%';
+                }
+            }
+        </script>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Card Image 1">
+            <div class="card-content">
+                <h2>Card Title 1</h2>
+                <p>This is a brief description of the content inside the card. It provides a summary of the card's information.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Card Title 2</h2>
+                <p>This is another brief description of the content inside the card. It provides a summary of the card's information.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Card Image 3">
+            <div class="card-content">
+                <h2>Card Title 3</h2>
+                <p>This is yet another brief description of the content inside the card. It provides a summary of the card's information.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="https://via.placeholder.com/600x400?text=Image+1" alt="Image 1">
+                <img src="https://via.placeholder.com/600x400?text=Image+2" alt="Image 2">
+                <img src="https://via.placeholder.com/600x400?text=Image+3" alt="Image 3">
+            </div>
+            <div class="carousel-buttons">
+                <button class="carousel-button" id="prevButton">&lt;</button>
+                <button class="carousel-button" id="nextButton">&gt;</button>
+            </div>
+        </div>
+    
+        <script>
+            const carouselImages = document.querySelector('.carousel-images');
+            const images = document.querySelectorAll('.carousel-images img');
+            const prevButton = document.getElementById('prevButton');
+            const nextButton = document.getElementById('nextButton');
+    
+            let counter = 0;
+            const size = images[0].clientWidth;
+    
+            nextButton.addEventListener('click', () => {
+                if (counter >= images.length - 1) return;
+                carouselImages.style.transform = 'translateX(' + (-size * (counter + 1)) + 'px)';
+                counter++;
+            });
+    
+            prevButton.addEventListener('click', () => {
+                if (counter <= 0) return;
+                carouselImages.style.transform = 'translateX(' + (-size * (counter - 1)) + 'px)';
+                counter--;
+            });
+        </script>
+        <div>
+            <h1>top right corner :)</h1>  <!--this was impasible becose i hawe written too much code-->
+        </div>
+        <div class="header">
+            <h1>Fixed Header</h1>
+        </div>
+    
+        <div class="content">
+            <div class="section">
+                <h2>Section 1</h2>
+                <p>This is the content of the first section. Scroll down to see the header remain fixed at the top of the page.</p>
+            </div>
+            <div class="section">
+                <h2>Section 2</h2>
+                <p>This is the content of the second section. Scroll down to see the header remain fixed at the top of the page.</p>
+            </div>
+            <div class="section">
+                <h2>Section 3</h2>
+                <p>This is the content of the third section. Scroll down to see the header remain fixed at the top of the page.</p>
+            </div>
+            <div class="section">
+                <h2>Section 4</h2>
+                <p>This is the content of the fourth section. Scroll down to see the header remain fixed at the top of the page.</p>
+            </div>
+            <div class="section">
+                <h2>Section 5</h2>
+                <p>This is the content of the fifth section. Scroll down to see the header remain fixed at the top of the page.</p>
+            </div>
+        </div>
+        div class="sidebar">
+        <h2>Sticky Sidebar</h2>
+        <ul>
+            <li><a href="#section1" style="color: white;">Section 1</a></li>
+            <li><a href="#section2" style="color: white;">Section 2</a></li>
+            <li><a href="#section3" style="color: white;">Section 3</a></li>
+            <li><a href="#section4" style="color: white;">Section 4</a></li>
+            <li><a href="#section5" style="color: white;">Section 5</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div id="section1" class="section">
+            <h2>Section 1</h2>
+            <p>This is the content of the first section. Scroll down to see the sidebar remain fixed at the top of the page.</p>
+        </div>
+        <div id="section2" class="section">
+            <h2>Section 2</h2>
+            <p>This is the content of the second section. Scroll down to see the sidebar remain fixed at the top of the page.</p>
+        </div>
+        <div id="section3" class="section">
+            <h2>Section 3</h2>
+            <p>This is the content of the third section. Scroll down to see the sidebar remain fixed at the top of the page.</p>
+        </div>
+        <div id="section4" class="section">
+            <h2>Section 4</h2>
+            <p>This is the content of the fourth section. Scroll down to see the sidebar remain fixed at the top of the page.</p>
+        </div>
+        <div id="section5" class="section">
+            <h2>Section 5</h2>
+            <p>This is the content of the fifth section. Scroll down to see the sidebar remain fixed at the top of the page.</p>
+        </div>
+    </div>
+    </body>
+</html>
