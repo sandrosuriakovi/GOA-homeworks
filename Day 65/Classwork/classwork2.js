@@ -1,0 +1,1 @@
+document.body.children[0].function = findShort[parent]

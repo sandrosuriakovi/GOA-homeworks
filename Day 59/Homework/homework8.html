@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form id="registrationForm">
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        // ფუნქცია რომელიც შეამოწმებს ფორმის ველების შევსებულობას
+        document.getElementById('registrationForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // ფორმის გადაგზავნის თავიდან აცილება
+
+            // ფორმის ველების მნიშვნელობების აღება
+            const fullName = document.getElementById('fullname').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            // ფორმის ველების შემოწმება - თუ ველი ცარიელია, დაბრუნდება შეტყობინება
+            if (fullName === '' || email === '' || password === '') {
+                alert("Please fill out all fields.");
+            } else {
+                alert("All fields are filled.");
+                // კონსოლში მონაცემების გამოყვანა
+                console.log("Full Name:", fullName);
+                console.log("Email:", email);
+                console.log("Password:", password);
+            }
+        });
+    </script>
+</body>
+</html>

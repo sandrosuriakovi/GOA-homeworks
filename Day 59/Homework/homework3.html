@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Color</title>
+    <style>
+        #colorBlock {
+            width: 200px;
+            height: 200px;
+            background-color: gray;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="colorBlock"></div>
+    <button onclick="changeColor('red')">Red</button>
+    <button onclick="changeColor('blue')">Blue</button>
+    <button onclick="changeColor('green')">Green</button>
+    <button onclick="changeColor('purple')">Purple</button>
+    <button onclick="changeColor('black')">Black</button>
+
+    <script>
+        function changeColor(color) {
+            document.getElementById('colorBlock').style.backgroundColor = color;
+        }
+    </script>
+    <!--ფერის შეცვლა div ელემენტში: ფუნქცია changeColor იღებს ფერის დასახელებას და ცვლის div ელემენტის backgroundColor სტილს.-->
+</body>
+</html>

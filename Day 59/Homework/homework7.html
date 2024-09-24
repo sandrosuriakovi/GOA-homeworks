@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Numbers Sum</title>
+</head>
+<body>
+    <script>
+        // ფუნქცია რომელიც ამატებს რიცხვებს მასივში 0-დან border-ის ჩათვლით
+        function generateEven(border) {
+            const evenNumbers = [];
+            for (let i = 0; i <= border; i++) {
+                if (i % 2 === 0) {
+                    evenNumbers.push(i);
+                }
+            }
+            return evenNumbers;
+        }
+
+        // ფუნქცია რომელიც იღებს მასივს და ითვლის ჯამს for ციკლით
+        function calculateSum(numbers) {
+            let sum = 0;
+            for (let i = 0; i < numbers.length; i++) {
+                sum += numbers[i];
+            }
+            return sum;
+        }
+
+        // ალტერნატიული მეთოდი reduce ფუნქციით
+        function calculateSumAlternative(numbers) {
+            return numbers.reduce((acc, num) => acc + num, 0);
+        }
+
+        // მაგალითი
+        const evenNumbers = generateEven(10);
+        const sum = calculateSum(evenNumbers);
+        console.log("Sum of even numbers:", sum);
+
+        // ალტერნატიული მეთოდის მაგალითი
+        const sumAlternative = calculateSumAlternative(evenNumbers);
+        console.log("Sum of even numbers (alternative):", sumAlternative);
+    </script>
+    <!--Generate Even და CalculateSum: მასივი გენერირდება 0-დან border-მდე, შეიცავს მხოლოდ ლუწ რიცხვებს და calculateSum ფუნქცია ჯამს ითვლის. ალტერნატიულ მეთოდში გამოყენებულია reduce.-->
+</body>
+</html>

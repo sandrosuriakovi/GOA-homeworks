@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Access</title>
+</head>
+<body>
+    <script>
+        let attempts = 3;
+        const correctPassword = "1234";
+
+        while (attempts > 0) {
+            let userPassword = prompt("Please enter your password:");
+
+            if (userPassword === correctPassword) {
+                alert("Access granted!");
+                break;
+            } else {
+                attempts--;
+                alert(`Incorrect password. You have ${attempts} attempts left.`);
+            }
+
+            if (attempts === 0) {
+                alert("Access denied. No more attempts left.");
+            }
+        }
+    </script>
+    <!--პაროლის შემოწმება: while ციკლი ამოწმებს, სწორია თუ არა პაროლი და აბრუნებს შეტყობინებას მომხმარებლის მცდელობების საფუძველზე.-->
+</body>
+</html>

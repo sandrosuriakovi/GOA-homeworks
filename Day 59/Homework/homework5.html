@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<body>
+    <p id="counter">0</p>
+    <button onclick="incrementCounter()">Increment</button>
+
+    <script>
+        let counter = 0;
+        function incrementCounter() {
+            counter++;
+            document.getElementById('counter').textContent = counter;
+        }
+    </script>
+    <!--Counter: ღილაკზე დაჭერისას counter ცვლადი იზრდება და მისი მნიშვნელობა აისახება პარაგრაფში.-->
+</body>
+</html>

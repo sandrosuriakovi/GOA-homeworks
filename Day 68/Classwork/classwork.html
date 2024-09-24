@@ -1,0 +1,38 @@
+<div id="div1">
+    <div id="div2">
+        <div id="div3">
+        </div>
+    </div>
+</div>
+
+<script>
+    
+
+    document.getElementById('div1').addEventListener('click', function() {
+        console.log('div1 clicked');
+    }, true);
+
+    document.getElementById('div2').addEventListener('click', function() {
+        console.log('div2 clicked');
+    }, true); 
+    document.getElementById('div3').addEventListener('click', function() {
+        console.log('div3 clicked');
+    }, true); 
+</script>
+
+<script>
+    
+    
+    document.getElementById('div1').addEventListener('click', function() {
+        console.log('div1 clicked');
+    });
+
+    document.getElementById('div2').addEventListener('click', function() {
+        console.log('div2 clicked');
+    });
+
+    document.getElementById('div3').addEventListener('click', function() {
+        console.log('div3 clicked');
+    });
+</script>
+
